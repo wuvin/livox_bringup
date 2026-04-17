@@ -100,7 +100,7 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             'config',
-            default_value='MID360_config.json',
+            default_value='m4-red/config.json',
             description='File path for Livox configuration JSON'
         ),
         DeclareLaunchArgument(
